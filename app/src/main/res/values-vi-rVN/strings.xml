@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CompassDemo</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="title_activity_settings">Cài đặt</string>
+    <string name="pref_title_ringtone">Nhạc chuông</string>
+    <string name="pref_ringtone_silent">Im lặng</string>
+    <string name="default_gallery_storage">Video của tôi</string>
+    <string name="title_auto_upload">Vị trí của bạn</string>
+    <string name="summary_upload_over_wifi">Tải video khi wifi được bật</string>
+    <string name="title_upload_quality">Chất lượng tải lên</string>
+    <string name="summary_upload_video_quality">Chọn chất lượng tải lên</string>
+    <string name="pref_title_notifications">Thông báo</string>
+    <string name="summary_choose_ringtone">Âm thanh thông báo</string>
+    <string name="pref_header_about">Thông tin App</string>
+    <string name="summary_about">Phần mềm này được sử dụng Android là ứng dụng miễn phí cho phép chúng ta sử dụng giống như một la bàn thật, có thể ứng dung con xảy ra lỗi, mong các bạn đánh giá chia sẻ về ứng dụng của mình nhé, mình cảm ơn !</string>
+    <string name="summary_support">Bạn có điều muốn hỏi? Hãy liên hệ với chúng tôi !</string>
+    <string name="title_send_feedback">Gửi phản hồi</string>
+    <string name="privacy_policy">Điều khoản bảo mật</string>
+    <string name="title_terms">Điều khoản ứng dụng</string>
+    <string name="title_version">Phiên bản</string>
+    <string name="choose_email_client">Chọn loại email</string>
+    <string name="pref_header_general">Cài đặt chung</string>
+    <string name="pref_title_display_name">"Tên "</string>
+    <string name="pref_description_social_recommendations">Liên hệ với chúng tôi qua[..]</string>
+    <string name="pref_default_display_name">Trang</string>
+    <string name="pref_title_add_friends_to_messages">Thêm bân qua messages</string>
+    <string name="pref_header_data_sync">"Dữ liệu "</string>
+    <string name="pref_header_notifications">Thông báo</string>
+    <string name="pref_title_new_message_notifications">Tin nhắn mới</string>
+    <string name="pref_title_vibrate">Rung</string>
+    <string name="action_settings_headers">Cài đặt headers</string>
+    <string name="title_ngonngu">Thay đổi ngôn ngữ</string>
+    <string name="sumary_ngonngu">Thiết lập thay đổi ngôn ngữ</string>
+    <string name="title_theme">Lựa chọn chủ đề cho ứng dụng</string>
+    <string name="sumary_theme">Cài đặt chủ đề</string>
+    <string name="sumary_danhgia">hần mềm này được sử dụng Android là ứng dụng miễn phí cho phép chúng ta sử dụng giống như một la bàn thật, có thể ứng dung con xảy ra lỗi, mong các bạn đánh giá chia sẻ về ứng dụng của mình nhé, mình cảm ơn !</string>
+    <string name="title_danhgia">Đánh giá ứng dụng</string>
+    <string name="title_caidatlaban">Cài đặt La bàn</string>
+    <string name="setup_ngonngu">Cài đặt ngôn ngữ</string>
+    <string name="general_ngonngu">Cài đặt chung</string>
+    <string name="theme">Chủ đề</string>
+</resources>

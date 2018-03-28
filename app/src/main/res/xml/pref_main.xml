@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/general_ngonngu">
+
+        <!--android:entries="@array/pref_font_entries"
+        android:entryValues="@array/pref_font_value"-->
+        <ListPreference
+
+            android:defaultValue="3"
+            android:dialogTitle="@string/title_ngonngu"
+
+            android:key="@string/key_font"
+            android:summary="@string/sumary_ngonngu"
+            android:title="@string/setup_ngonngu" />
+        <!--android:entries="@array/pref_upload_quality_entries"
+                    android:entryValues="@array/pref_upload_quality_values"-->
+        <ListPreference
+            android:defaultValue="3"
+            android:dialogTitle="@string/title_theme"
+
+
+            android:key="@string/key_upload_quality"
+            android:summary="@string/sumary_theme"
+            android:title="@string/theme" />
+        <Preference
+            android:summary="@string/sumary_danhgia"
+            android:title="@string/title_danhgia">
+            <intent
+
+                android:action="android.intent.action.VIEW"
+                android:data="https://richadx.com/" />
+        </Preference>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/title_caidatlaban">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/notifications_new_message"
+            android:title="@string/title_new_notification_sound" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/key_upload_over_wifi"
+            android:summary="@string/summary_upload_over_wifi"
+            android:title="@string/title_auto_upload" />
+
+        <RingtonePreference
+            android:defaultValue="content://settings/system/notification_sound"
+            android:dependency="notifications_new_message"
+            android:key="@string/key_notifications_new_message_ringtone"
+            android:ringtoneType="notification"
+            android:summary="@string/summary_choose_ringtone"
+            android:title="@string/pref_title_ringtone" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/key_vibrate"
+            android:summary="@string/summary_vibrate"
+            android:title="@string/title_vibrate" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_header_about">
+
+        <Preference
+            android:selectable="false"
+            android:summary="@string/summary_about" />
+
+        <Preference
+            android:summary="@string/app_version"
+            android:title="@string/title_version" />
+
+        <Preference
+            android:key="@string/key_send_feedback"
+            android:summary="@string/summary_support"
+            android:title="@string/title_send_feedback" />
+
+        <!-- preference opens url in browser -->
+        <Preference
+            android:summary="@string/summary_faq"
+            android:title="@string/title_faq">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_faq" />
+        </Preference>
+
+        <Preference android:title="@string/privacy_policy">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_privacy" />
+        </Preference>
+
+        <Preference android:title="@string/title_terms">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_terms" />
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/backgr"
+    tools:context="richadx.com.compassdemo.Compass">
+
+    <include layout="@layout/snippet_top_main" />
+
+    <RelativeLayout
+        android:id="@+id/relayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <include layout="@layout/snippet_top" />
+
+        <TextView
+            android:id="@+id/txt_azimuth"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="0°"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_below="@+id/relayout1">
+
+        <ImageView
+
+            android:id="@+id/img_compass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/compass" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/qua"
+            android:scaleType="centerCrop" />
+
+        <me.rishabhkhanna.customtogglebutton.CustomToggleButton
+            android:layout_width="40dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            app:checkedColor="#333"
+            app:uncheckedColor="#444"
+            app:borderWidth="10dp"
+            android:gravity="center"
+            app:checkedTextColor="#fff"
+            android:id="@+id/tgOnOff"
+            android:textColor="@color/white"
+            android:textOff="@string/off"
+            app:uncheckedTextColor="#000"
+            android:textOn="@string/on"
+
+            app:radius="20dp">
+
+        </me.rishabhkhanna.customtogglebutton.CustomToggleButton>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relayout3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true">
+
+
+        <com.google.android.gms.ads.doubleclick.PublisherAdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/publisherAdView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="/6499/example/banner"></com.google.android.gms.ads.doubleclick.PublisherAdView>
+    </RelativeLayout>
+
+
+</RelativeLayout>
