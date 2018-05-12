@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relativeLayout"
+    android:background="#6c4202"
+    android:layout_height="match_parent"
+
+    tools:context=".PhongThuy2Activity">
+    <ScrollView
+        android:background="@color/white"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:id="@+id/txt1"
+                android:text="Xem hướng nhà tốt"
+                android:textSize="45sp"
+                android:lineSpacingMultiplier="1"
+                android:gravity="center"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/txt2"
+                android:textColor="#000"
+                android:layout_below="@id/txt1"
+                android:text="theo tuổi"
+                android:textSize="45sp"
+                android:layout_marginTop="-20dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thông tin gia chủ xem hướng nhà"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grey_border"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Năm sinh gia chủ : "
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtNamSinh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1993"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtTuoi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Quy dau"
+                        android:textColor="#ae1414"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mệnh gia chủ :  "
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtMenh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quy dau"
+                        android:textColor="#ae1414"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cung gia chủ :  "
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtCung"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quy dau"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quẻ trạch gia chủ : "
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtQueTrach"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quy dau"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Hướng tốt và hướng xấu đối với tuổi gia chủ"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/grey_border"
+                android:gravity="center"
+                android:text="Hướng tốt (Tây tứ trạch)"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grey_border"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hướng Sinh khí: "
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtSinhKhi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1993"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hướng Thiên y: "
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtThienY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quy dau"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hướng Diên niên : "
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtDienNien"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quy dau"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hướng Phục vị: "
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtPhucVi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quy dau"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:background="@drawable/grey_border"
+                android:gravity="center"
+                android:text="Hướng xấu (Đông tứ trạch)"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grey_border"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hướng Tuyệt mệnh: "
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtTuyetMenh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1993"
+                        android:textColor="#ae1414"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hướng Ngũ quỷ: "
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtNguQuy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quy dau"
+                        android:textColor="#ae1414"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hướng Lục sát: "
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtLucSat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quy dau"
+                        android:textColor="#ae1414"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hướng Hoạ hại: "
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/txtHoaHai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Quy dau"
+                        android:textColor="#ae1414"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Kết luận xem hướng nhà của gia chủ"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/grey_border"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="5dp"
+           android:layout_marginBottom="5dp"
+            android:paddingBottom="5dp"
+            android:text="Gia chủ nên đặt vị trí cửa chính và hướng cửa chính như sau"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+            <TextView
+                android:id="@+id/txtKetLuan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grey_border"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingMultiplier="1.2"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="Gia chủ nên đặt vị trí cửa chính và hướng cửa chính như sau"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+
+        android:id="@+id/btnHelp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="13dp"
+        android:layout_marginEnd="14dp"
+        android:src="@drawable/infor"
+        app:backgroundTint="@color/white"
+        app:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp" />
+
+</RelativeLayout>

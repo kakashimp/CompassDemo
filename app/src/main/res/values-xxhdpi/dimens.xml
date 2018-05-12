@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+        <dimen name="dp1">1dp</dimen>
+        <dimen name="dp100">100dp</dimen>
+        <dimen name="dp50">50dp</dimen>
+        <dimen name="sp20">20sp</dimen>
+        <dimen name="size250dpim">280dp</dimen>
+    <dimen name="size40dp">45dp</dimen>
+    <dimen name="size50dp">65dp</dimen>
+    <dimen name="size70dp">80dp</dimen>
+    <dimen name="size35sp">40sp</dimen>
+    <dimen name="size10dp">15dp</dimen>
+    <dimen name="ic_setting_25dp">30dp</dimen>
+    <dimen name="size35dp">40dp</dimen>
+    <dimen name="textdinhvi13sp">18sp</dimen>
+
+</resources>

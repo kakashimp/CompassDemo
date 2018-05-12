@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    android:background="#2F2F37"
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="40dp">
-    <TextView
-        android:layout_marginLeft="10dp"
-        android:layout_alignParentStart="true"
-        android:id="@+id/imChucNang1"
-        android:layout_width="wrap_content"
+<RelativeLayout android:background="#2F2F37"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size40dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.hanks.htextview.typer.TyperTextView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="#fff"
-        android:layout_centerInParent="true"
-        android:text="Wait for GPS signal ..."
-        android:layout_alignParentLeft="true" />
+        android:gravity="center"
+        android:text="GPS"
+        android:layout_marginRight="@dimen/size10dp"
+        android:layout_marginLeft="@dimen/size10dp"
+        android:textSize="15sp"
+        android:id="@+id/imChucNang1"
+        android:singleLine="true"
 
-    <ImageView
-        android:layout_alignParentRight="true"
-        android:textColor="#fff"
+        android:textColor="@color/white"
         android:layout_centerInParent="true"
-        android:src="@drawable/ic_setting"
-        android:layout_marginRight="10dp"
-        android:id="@+id/txtSetting"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        app:charIncrease="3"
+        app:typerSpeed="80"/>
+
+
 </RelativeLayout>

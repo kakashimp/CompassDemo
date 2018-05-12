@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="pref_upload_quality_entries">
-        <item>360p</item>
-        <item>480p</item>
-        <item>720p</item>
-        <item>1080p</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Yellow</item>
+        <item>Red</item>
         <item>Original</item>
     </string-array>
     <string-array name="pref_upload_quality_values">
@@ -20,8 +20,8 @@
 
     </string-array>
     <string-array name="pref_font_value">
-        <item>vi</item>
-        <item>en</item>
+        <item>1</item>
+        <item>2</item>
 
     </string-array>
 </resources>

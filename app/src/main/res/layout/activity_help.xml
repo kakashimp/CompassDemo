@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relativeLayout"
+    android:background="#6c4202"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity">
+
+    <ScrollView
+        android:background="#e4e4e4"
+        android:layout_margin="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="13dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <TextView
+           android:padding="10dp"
+           android:background="@color/white"
+           android:gravity="center"
+           android:textAllCaps="true"
+           android:text="Thông tin chi tiết"
+           android:textColor="@color/black"
+           android:textSize="18sp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.CardView
+                android:layout_marginTop="20dp"
+                app:cardElevation="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:padding="5dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+            <TextView
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:background="@drawable/grey_border"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Hướng Sinh khí"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:padding="10dp"
+                android:gravity="left"
+                android:textColor="@color/black"
+                android:text="Là cát khí, là thông suốt, là sinh sôi, nảy nở. Sinh khí là kết quả tiến hành thuận lợi, hanh thông. Sinh khí chủ về phát phúc, chủ sự hòa hợp, thăng tiến, lại cũng chủ về sự thông minh sáng suốt, trí tuệ, hiếu lễ, sự trung hậu, trước sau cẩn thận."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="15dp"
+            app:cardElevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textSize="18sp"
+                    android:background="@drawable/grey_border"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="Hướng Thiên y	"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:padding="10dp"
+                    android:gravity="left"
+                    android:textColor="@color/black"
+                    android:text="Là cát khí, biểu hiện sự tăng tài tiến lộc; là sự gia tăng sinh khí; là sự hóa giải các vướng mắc trong cuộc sống mọi mặt. quẻ biến thành thiên y là cát, là được hộ trì. Thiên y là có giao, hợp, chính, hò"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="15dp"
+            app:cardElevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:textSize="18sp"
+                    android:background="@drawable/grey_border"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="Hướng Diên niên"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:padding="10dp"
+                    android:gravity="left"
+                    android:textColor="@color/black"
+                    android:text="Là cát khí, biểu hiện sự vững vàng, thuận hòa, êm đẹp. Gặp khí Diên Niên là có sự may mắn, vui vẻ trong các mối quan hệ tình cảm gia đình và xã hội. Gặp Diên Niên là kinh doanh tăng tiến, giao dịch thuận lợi, mưu sự đạt kết quả, tình duyên êm đềm."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="15dp"
+            app:cardElevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:background="@drawable/grey_border"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="Hướng Phục vị"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:gravity="left"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:text="Là khí biến ngang hòa. Gặp quẻ biến thành Phục Vị là trở lại vị trí ban đầu của khí chất quẻ gốc, quẻ biến. Vì vậy khí Phục vị là khí quân bình cát hung. "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="15dp"
+            app:cardElevation="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:background="@drawable/grey_border"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="Hướng Tuyệt mệnh"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:padding="10dp"
+                    android:gravity="left"
+                    android:textColor="@color/black"
+                    android:text="Là hung khí. Tuyệt mệnh là hết đời, là sự chia cắt, ly xa, là tai ương, tật ách. Gặp Tuyệt Mệnh khí là kết quả tiến hành gặp trở ngại, không thành. Bệnh tật nguy khốn, hôn nhân, sinh sản, gia đạo bất an, gặp sự chẳng lành, quan hệ tình duyên, giao dịch trì trệ ngưng đọng, gặp nhiều phiền phức, hối cữu, công việc, kinh doanh, mưu sự vướng mắc, gãy đoạn, khó thành. "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="15dp"
+            app:cardElevation="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:background="@drawable/grey_border"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="Hướng Ngũ quỷ	"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:padding="10dp"
+                    android:gravity="left"
+                    android:textColor="@color/black"
+                    android:text="Là năm thứ tà khí quấy rối đời sống, quấy rối quan hệ con người. Khí ra Ngũ Quỷ là hung; là kết quả tiến hành gặp nhiều trắc trở, lận đận khó thành; là bất nhất trước sau, là vô tiền khoáng hậu. Gặp Ngũ Quỷ dễ gây ra tai vạ, tranh cãi, thị phi khẩu thiệt, gặp những sự quấy rối, phá ngang."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="15dp"
+            app:cardElevation="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:background="@drawable/grey_border"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="Hướng Lục sát	"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:padding="10dp"
+                    android:gravity="left"
+                    android:textColor="@color/black"
+                    android:text="Là hung khí, biểu hiện có sự thiệt hại, đứt đoạn, chia ly, thương tổn, mất mát những gì thuộc về chủ thể có quyền chăm sóc, giáo dục hay có quyền sở hữu. Lục Sát còn gọi là Vãng vong, là kết quả tiến hành gặp trở ngại, hao tán, mất mát mà không thành."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="15dp"
+            app:cardElevation="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:background="@drawable/grey_border"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="Hướng Hoạ hại"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:padding="10dp"
+                    android:gravity="left"
+                    android:textColor="@color/black"
+                    android:text="Là hung khí, biểu hiện có sự thiệt hại, mất mát, hao tổn, tán tài, tán vật thuộc chủ quyền quản lý, sử dụng hay quyền sở hữu của thủ thể. Gặp Họa Hại là mưu sự khó thành, tình duyên chia cắt, giao dịch thua thiệt, bệnh gia tăng, khí lực tổn thất, gia đạo bát an. Hôn nhân, sinh sản đều phải đề phòng cẩn thận."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

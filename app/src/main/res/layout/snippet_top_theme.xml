@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/primaryColor"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size40dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/imBack"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="@dimen/size10dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_white_arrow"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+
+
+</RelativeLayout>

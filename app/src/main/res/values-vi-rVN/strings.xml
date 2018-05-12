@@ -13,7 +13,7 @@
     <string name="pref_title_notifications">Thông báo</string>
     <string name="summary_choose_ringtone">Âm thanh thông báo</string>
     <string name="pref_header_about">Thông tin App</string>
-    <string name="summary_about">Phần mềm này được sử dụng Android là ứng dụng miễn phí cho phép chúng ta sử dụng giống như một la bàn thật, có thể ứng dung con xảy ra lỗi, mong các bạn đánh giá chia sẻ về ứng dụng của mình nhé, mình cảm ơn !</string>
+    <string name="summary_about">Phần mềm này được phát triển trên hệ điều hành Android là ứng dụng miễn phí cho phép chúng ta sử dụng giống như một La bàn thật, có thể ứng dụng còn xảy ra các lỗi nhỏ, mong các bạn đánh giá và chia sẻ về ứng dụng của mình nhé, mình cảm ơn !</string>
     <string name="summary_support">Bạn có điều muốn hỏi? Hãy liên hệ với chúng tôi !</string>
     <string name="title_send_feedback">Gửi phản hồi</string>
     <string name="privacy_policy">Điều khoản bảo mật</string>
@@ -34,10 +34,29 @@
     <string name="sumary_ngonngu">Thiết lập thay đổi ngôn ngữ</string>
     <string name="title_theme">Lựa chọn chủ đề cho ứng dụng</string>
     <string name="sumary_theme">Cài đặt chủ đề</string>
-    <string name="sumary_danhgia">hần mềm này được sử dụng Android là ứng dụng miễn phí cho phép chúng ta sử dụng giống như một la bàn thật, có thể ứng dung con xảy ra lỗi, mong các bạn đánh giá chia sẻ về ứng dụng của mình nhé, mình cảm ơn !</string>
+    <string name="sumary_danhgia">Phần mềm này được phát triển trên nền tảng Android là ứng dụng miễn phí cho phép chúng ta sử dụng giống như một la bàn thật, có thể ứng dụng còn xảy ra lỗi, mong các bạn đánh giá chia sẻ về ứng dụng của mình nhé, mình cảm ơn !</string>
     <string name="title_danhgia">Đánh giá ứng dụng</string>
     <string name="title_caidatlaban">Cài đặt La bàn</string>
     <string name="setup_ngonngu">Cài đặt ngôn ngữ</string>
     <string name="general_ngonngu">Cài đặt chung</string>
     <string name="theme">Chủ đề</string>
+    <string name="nw">Tây Bắc</string>
+    <string name="s">Nam</string>
+    <string name="n">Bắc</string>
+    <string name="w">Tây</string>
+    <string name="sw">Tây Nam</string>
+    <string name="se">Đông Nam</string>
+    <string name="e">Đông</string>
+    <string name="ne">Đông Bắc</string>
+    <string name="turn_on_off_gps">Bật tắt GPS</string>
+    <string name="setting_gps">Thiết lập GPS</string>
+    <string name="url">https://richadx.com/</string>
+    <string name="wait_for_gps_signal">Đang định vị vị trí ...</string>
+    <string name="chon_la_ban">Chọn la bàn</string>
+    <string name="loai_clasic">Chọn loại la bàn</string>
+    <string name="popupthongtin">Được thiết kế để chạy trên các điện thoại di động và máy tính bảng có hệ điều hành Android từ 4.1 trở lên và có hỗ trợ cảm biến la bàn số của các hãng: Samsung, HTC, Sony, LG,... Với la bàn tự xoay để đo hướng, tọa độ của vị trí người sử dụng. Ngoài việc đo hướng la bàn còn định vị Kinh độ và Vĩ độ theo GPS, Lấy vị trí chính xác của bạn thông qua Google.</string>
+    <string name="cancel">cancel</string>
+    <string name="rate_app">Đánh giá ứng dụng</string>
+    <string name="ratecom">Hãy đánh giá 5 sao để ủng hộ chúng tôi !</string>
+    <string name="urll">https://play.google.com/store/apps/developer?id=25Studio</string>
 </resources>

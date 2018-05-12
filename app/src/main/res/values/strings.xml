@@ -18,7 +18,7 @@
     <string name="summary_choose_ringtone">Choose notification sound</string>
     <string name="pref_header_about">About App</string>
     <string name="summary_about">We are a team of like-minded people, specialized in development of Android App Development creating new trends across the app space. Glad to Help in anyway!</string>
-    <string name="app_version" translatable="false">3.5</string>
+    <string name="app_version" translatable="false">1.0</string>
     <string name="summary_support">Got any queries? We are happy to help!</string>
     <string name="title_send_feedback">Send Feedback</string>
     <string name="title_faq" translatable="false">FAQ</string>
@@ -125,4 +125,24 @@
     <string name="key_font">key_font</string>
     <string name="off">Off</string>
     <string name="on">ON</string>
+    <string name="nw">NW</string>
+    <string name="s">S</string>
+    <string name="n">N</string>
+    <string name="w">W</string>
+    <string name="sw">SW</string>
+    <string name="se">SE</string>
+    <string name="e">E</string>
+    <string name="ne">NE</string>
+    <string name="turn_on_off_gps">Turn On Off GPS</string>
+    <string name="setting_gps">Setting GPS</string>
+    <string name="url">https://richadx.com/</string>
+    <string name="wait_for_gps_signal">Wait for GPS signal ...</string>
+    <string name="chon_la_ban">chose compass</string>
+    <string name="loai_clasic">You chosen type Classic</string>
+    <string name="popupthongtin">Được thiết kế để chạy trên các điện thoại di động và máy tính bảng có hệ điều hành Android từ 4.1 trở lên và có hỗ trợ cảm biến la bàn số của các hãng: Samsung, HTC, Sony, LG,... Với la bàn tự xoay để đo hướng, tọa độ của vị trí người sử dụng. Ngoài việc đo hướng la bàn còn định vị Kinh độ và Vĩ độ theo GPS, Lấy vị trí chính xác của bạn thông qua Google.</string>
+    <string name="cancel">cancel</string>
+    <string name="well_come">La bàn GPS hoạt động dựa trên Hệ thống Định vị Toàn cầu (Global Positioning System, GPS), và là một menu sử dụng của máy thu GPS. Nhờ đạt được độ chính xác định vị tọa độ cao mà máy thu GPS có thể tính được tốc độ và phương vị di chuyển.</string>
+    <string name="rate_app">Rate App</string>
+    <string name="ratecom">Your 5 start review is worth more than all money !!</string>
+    <string name="urll">https://play.google.com/store/apps/developer?id=25Studio</string>
 </resources>
